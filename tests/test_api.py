@@ -22,6 +22,6 @@ def test_prediction_low():
     assert res.json()["risk"] == "low", "Prediction for low risk failed"
 
 
-# declaring 2 tests in this file to test the FastAPI application
+# declaring 3 tests in this file to test the FastAPI application
 # these tests simulate requests to the endpoints and verify the responses
 # pytest module is used to run these tests and report any failures
